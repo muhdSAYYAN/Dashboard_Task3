@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@100;400&display=swap');
+
+
+.side-bar{
+    width:14%;
+    height: 100%;
+    background-image:url('../Assets/Rectangle\ 1.png') ;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.bagdiv{
+    width: 100%;
+    height: 13%;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.bagdiv img{
+    width: 30%;
+}
+.sideitems{
+    width: 100%;
+    height: 45%;
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+}
+.sidecontent{
+    width: 70%;
+    height: 13%;
+    background-color: rgb(27, 32, 48);
+    color: white;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    gap: 10px;
+    
+}
+.sidecontent img{
+    width: 12%;
+}
+.sidecontent span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.sidecontent:hover{
+    background-color: white;
+    color: black;
+    
+}
+.logout{
+    width: 100%;
+    height: 6%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.logout img{
+    width: 6%;
+}
+.logout span{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: red;
+    font-size: 13px;
+}

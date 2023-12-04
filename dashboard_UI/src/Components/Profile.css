@@ -1,0 +1,36 @@
+.ceoprofile{
+    width:18%;
+    height: 95%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.ceoprofile img{
+    width: 100%;
+    height: 60%;
+
+}
+.ceoprofile span{
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.spanceo{
+    font-size: small !important;
+    color: rgb(123, 123, 123);
+}
+.medias{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: wheat; */
+    width: 90%;
+    height: 14%;
+}
+.medias img{
+    width: 24px;
+}
