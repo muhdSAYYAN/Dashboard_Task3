@@ -38,6 +38,13 @@ const graphData = [
   { x: 'Mar', y: 8 },
   { x: 'Apr', y: 12 },
   { x: 'May', y: 18 },
+  { x: 'June', y: 0 },
+  { x: 'July', y: 0 },
+  { x: 'August', y: 0 },
+  { x: 'September', y: 0 },
+  { x: 'October', y: 0 },
+  { x: 'November', y: 0 },
+  { x: 'December', y: 0 },
 ];
 
 app.get('/api/graph', (req, res) => {

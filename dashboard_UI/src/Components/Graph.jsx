@@ -39,7 +39,7 @@ const Graph = () => {
           beginAtZero: true,
           stepSize: 5,
         },
-        scaleFontSize: 10,  // Adjust the font size to indirectly affect the height
+        scaleFontSize: 7,  // Adjust the font size to indirectly affect the height
       }],
       xAxes: [{
         gridLines: {
@@ -55,7 +55,7 @@ const Graph = () => {
 
   return (
     <div className='graph' style={{ width: '81%' }}>
-      <Line data={lineChartData} options={options} />
+      <Line height='100%' type='line' data={lineChartData} options={options} />
     </div>
   );
 };

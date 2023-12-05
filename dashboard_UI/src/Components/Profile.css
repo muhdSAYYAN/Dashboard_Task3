@@ -1,5 +1,5 @@
 .ceoprofile{
-    width:18%;
+    width:16%;
     height: 95%;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -11,7 +11,8 @@
 }
 .ceoprofile img{
     width: 100%;
-    height: 60%;
+    height: 65%;
+    object-fit: contain;
 
 }
 .ceoprofile span{
