@@ -34,6 +34,30 @@
     background-color: #f9f9f9;
   }
   tr{
-    height: 20px;
+
+    height: 37px;
+  
   }
   
+
+  @media screen and (min-width: 900px) and (max-width: 1024px) {
+    
+    th, td {
+      padding: 6px; 
+    }
+      tr {
+        height: 10px ;
+        /* background-color: aqua; */
+      }
+
+  }
+  @media screen and (min-width: 800px) and (max-width: 900px) {
+    
+    th, td {
+      padding: 6px; 
+    }
+      tr {
+        height: 10px;
+      }
+
+  }

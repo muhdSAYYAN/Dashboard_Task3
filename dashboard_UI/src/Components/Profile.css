@@ -1,5 +1,5 @@
 .ceoprofile{
-    width:16%;
+    width:17%;
     height: 95%;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -11,8 +11,8 @@
 }
 .ceoprofile img{
     width: 100%;
-    height: 65%;
-    object-fit: contain;
+    height: 59%;
+    /* object-fit: contain; */
 
 }
 .ceoprofile span{
@@ -34,4 +34,23 @@
 }
 .medias img{
     width: 24px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+ 
+    .ceoprofile{
+        width:23%;
+    }   
+    .medias img{
+        width: 17px;
+    }
+    .ceoprofile span{
+        font-size: 15px;
+        font-weight: 600;
+    
+    }
+    .spanceo{
+        font-size: 10px !important;
+        color: rgb(123, 123, 123);
+    }
 }

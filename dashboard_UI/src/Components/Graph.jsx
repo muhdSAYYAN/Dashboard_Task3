@@ -25,9 +25,10 @@ const Graph = () => {
       {
         label: 'Data Distribution',
         data: data.map((item) => item.y),
-        backgroundColor: 'rgba(75,192,192,0.2)',
+        backgroundColor: 'rgba(0,0,0,0)', 
         borderColor: 'rgba(75,192,192,1)',
         borderWidth: 1,
+        fill: false, 
       },
     ],
   };
@@ -43,7 +44,7 @@ const Graph = () => {
       }],
       xAxes: [{
         gridLines: {
-          drawOnChartArea: false,
+          drawOnChartArea: true,
         },
         barPercentage: 0.5,
         categoryPercentage: 0.5,
@@ -54,9 +55,11 @@ const Graph = () => {
   
 
   return (
-    <div className='graph' style={{ width: '81%' }}>
-      <Line height='100%' type='line' data={lineChartData} options={options} />
-    </div>
+    <div className='graph'>
+      {/* <div className="linegraph"> */}
+      <Line height={'100%'} type='line' data={lineChartData} options={options} />
+      </div>
+    // </div>
   );
 };
 

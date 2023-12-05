@@ -14,14 +14,13 @@
 .bagdiv{
     width: 100%;
     height: 13%;
-    /* background-color: azure; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
 }
 .bagdiv img{
-    width: 30%;
+    width: 40%;
 }
 .sideitems{
     width: 100%;
@@ -31,6 +30,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: end;
+    
 }
 .sidecontent{
     width: 70%;
@@ -42,10 +42,10 @@
     align-items: center;
     padding-left: 15px;
     gap: 10px;
-    
+    cursor: pointer;
 }
 .sidecontent img{
-    width: 12%;
+    width: 19px;
 }
 .sidecontent span{
     font-family: 'Inter', sans-serif;
@@ -68,7 +68,7 @@
     gap: 8px;
 }
 .logout img{
-    width: 6%;
+    width: 15px;
 }
 .logout span{
     font-family: 'Inter', sans-serif;
@@ -76,3 +76,169 @@
     color: red;
     font-size: 13px;
 }
+.active1{
+    background-color: white  !important;
+    color: black !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+   
+  }
+  
+  @media screen and (min-width: 1024px) and (max-width: 1200px) {
+    .sidecontent{
+        width: 80%;
+    }
+    .sidecontent img{
+        width: 15px;
+    }
+    .sidecontent span{
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .logout img{
+        width: 13px;
+    }
+    .logout span{
+        font-size: 12px;
+    }
+    
+  }
+
+  @media screen and (min-width:800px) and (max-width: 1023px) {
+    .sidecontent{
+        width: 85%;
+    }
+    .sidecontent img{
+        width: 13px;
+    }
+    .sidecontent span{
+        font-family: 'Inter', sans-serif;
+        font-weight: 2  00;
+        font-size: 10px;
+    }
+    .logout img{
+        width: 13px;
+    }
+    .logout span{
+        font-size: 12px;
+    }
+    
+  }
+
+  @media screen and (min-width: 700px) and (max-width: 800px) {
+    .side-bar{
+        width: 10%;
+    }
+    .bagdiv img{
+        width: 55%;
+    }
+    .sidecontent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 0;
+        width: 50%;
+    }
+    .sidecontent img{
+        width: 17px;
+    }
+    .sidecontent span{
+        display: none;
+    }
+    .logout img{
+        width: 13px;
+    }
+    .logout span{
+        font-size: 10px;
+    }
+  }
+
+  @media screen and (min-width: 600px) and (max-width: 700px) {
+    .side-bar{
+        width: 10%;
+    }
+    .bagdiv img{
+        width: 55%;
+    }
+    .sidecontent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 0;
+        width: 64%;
+    }
+    .sidecontent img{
+        width: 17px;
+    }
+    .sidecontent span{
+        display: none;
+    }
+    .logout img{
+        width: 15px;
+    }
+    .logout span{
+       display: none;
+    }
+  }
+  @media screen and (min-width: 375px) and (max-width: 600px) {
+    .side-bar{
+        width: 13%;
+    }
+    .bagdiv img{
+        width: 65%;
+    }
+    .sidecontent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 0;
+        width: 69%;
+    }
+    .sidecontent img{
+        width: 14px;
+    }
+    .sidecontent span{
+        display: none;
+    }
+    .logout img{
+        width: 15px;
+    }
+    .logout span{
+       display: none;
+    }
+  }
+  @media screen and (min-width: 100px) and (max-width: 375px) {
+    .side-bar{
+        width: 13%;
+    }
+    .bagdiv img{
+        width: 65%;
+    }
+    .sidecontent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        gap: 0;
+        width: 69%;
+    }
+    .sidecontent img{
+        width: 14px;
+    }
+    .sidecontent span{
+        display: none;
+    }
+    .logout img{
+        width: 15px;
+    }
+    .logout span{
+       display: none;
+    }
+  }

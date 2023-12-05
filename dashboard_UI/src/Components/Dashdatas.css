@@ -1,5 +1,14 @@
+.DashData{
+  width: 86%;
+  height: 100%;
+  background-color: rgb(222, 233, 247);
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  gap: 10px;
+}
 .dashdata{
-    width: 86%;
+    width: 100%;
     height: 100%;
     background-color: rgb(222, 233, 247);
     display: flex;
@@ -8,218 +17,420 @@
     gap: 10px;
 }
 .topside{
-    width: 95%;
-    height: 8%;
-    /* background-color: white; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 95%;
+  height: 8%;
+  /* background-color: white; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .topside span{
-    font-weight: 600;
+  font-weight: 600;
 }
 .profile{
-    width: 11%;
-    height: 70%;
-    background-color: white;
-    border-radius: 10px;   
-    display: flex; 
-    align-items: center;
-    justify-content: space-evenly;
-    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  width: 11%;
+  height: 70%;
+  background-color: white;
+  border-radius: 10px;   
+  display: flex; 
+  align-items: center;
+  justify-content: space-evenly;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 .username{
-    display: flex;
-    flex-direction: column;
-    /* background-color:beige; */
-    width: 60%;
-    height: 80%;
-    justify-content: center;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  /* background-color:beige; */
+  width: 60%;
+  height: 80%;
+  justify-content: center;
+  justify-content: space-evenly;
 }
 .username span{
-    font-size: 13px;
-    font-weight: 600;
+  font-size: 13px;
+  font-weight: 600;
 }
 .span1{
-    font-size: 10px !important;
-    font-weight: 400 !important;
+  font-size: 10px !important;
+  font-weight: 400 !important;
 }
 .profile img{
-    width: 25%;
-    height: 70%;
-    border-radius: 4px;
+  width: 25%;
+  height: 70%;
+  border-radius: 4px;
 }
 
 
 .middleside{
-    width: 90%;
-    height: 45%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    /* align-items: center; */
-    gap: 15px;
+  width: 90%;
+  height: 45%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .lastside{
-    width: 94%;
-    height: 40%;
-    /* background-color: yellowgreen; */
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    gap: 15px; 
+  width: 90%;
+  height: 40%;
+  /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+ 
 }
 .Pagination_div{
-    display:flex ;
-    flex-direction: column;
-    width: 85%;
-    /* background-color: aqua; */
-    align-items: center;
-    justify-content: space-between;
+  display:flex ;
+  flex-direction: column;
+  width: 82%;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: #23adad; */
 }
 
 
 /* Pagination */
 
 :root {
-    --primary: #23adad;
-    --greyLight: #23adade1;
-    --greyLight-2: #cbe0dd;
-    --greyDark: #2d4848;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-  }
-  
-  html {
-    box-sizing: border-box;
-    overflow-y: scroll;
-    font-family: "Poppins", sans-serif;
-    backface-visibility: hidden;
-  }
-  
-  /* .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: var(--greyLight-2);
-    color: var(--greyDark);
-  } */
-  
-  ul {
-    list-style-type: none;
-    
-  }
-  
-  .items-list {
-    max-width: 90vw;
-    margin: 1rem;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-gap: 3rem;
-    justify-content: center;
-    align-content: center;
+  --primary: #23adad;
+  --greyLight: #23adade1;
+  --greyLight-2: #cbe0dd;
+  --greyDark: #2d4848;
+}
 
-  }
+
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style-type: none;
   
-  
-  .item {
-    width: 10rem;
-    height: 10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: var(--greyDark);
-    cursor: pointer;
-  }
-  
-  .item span {
-    background: #ffffff;
-    box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05);
-    border-radius: 0.6rem;
-    padding: 2rem;
-    font-size: 3rem;
-    transition: all 0.3s ease;
-  }
-  
-  .item:hover span {
-    transform: scale(1.2);
-    color: var(--primary);
-  }
-  
-  .item p {
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    color: var(--greyLight);
-  }
-  
-  .page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 3rem;
-    border-radius: 0.6rem;
-    background: #ffffff;
-    box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05);
-  }
-  
-  .page__numbers,
-  .page__btn,
-  .page__dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.8rem;
-    font-size: 1rem;
-    cursor: pointer;
-  }
-  
-  .page__dots {
-    width: 2.6rem;
-    height: 2.6rem;
-    color: var(--greyLight);
-    cursor: initial;
-  }
-  
-  .page__numbers {
-    width: 1.6rem;
-    height: 1.6rem;
-    border-radius: 0.4rem;
-  }
-  
-  .page__numbers:hover {
-    color: var(--primary);
-  }
-  
-  .page__numbers.active {
-    color: #ffffff;
-    background: var(--primary);
-    font-weight: 600;
-    border: 1px solid var(--primary);
-  }
-  
-  .page__btn {
-    color: var(--greyLight);
-    pointer-events: none;
-  }
-  
-  .page__btn.active {
-    color: var(--greyDark);
-    pointer-events: initial;
-  }
-  
-  .page__btn.active:hover {
-    color: var(--primary);
-  }
-  
+}
+
+.pagination-controls{
+height:15%;
+margin-top: 15px;
+
+}
+ .page {
+  margin: 0px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  width: max-content;
+  border-radius: 0.6rem;
+  background: #ffffff;
+  box-shadow: 0 0.8rem 2rem rgba(90, 97, 129, 0.05);
+}
+
+.page__numbers,
+.page__btn,
+.page__dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.page__dots {
+  width: 1.6rem;
+  height: 2.6rem;
+  color: var(--greyLight);
+  cursor: initial;
+}
+
+.page__numbers {
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 0.4rem;
+}
+
+.page__numbers:hover {
+  color: var(--primary);
+}
+
+.page__numbers.active {
+  /* color: #ffffff; */
+  /* background-color: var(--primary); */
+  font-weight: 600;
+  border: 1px solid var(--greyDark);
+}
+
+.page__btn {
+  color: var(--greyLight);
+  pointer-events: none;
+}
+.page__btn img{
+  height: 16px;
+  padding: 5px;
+}
+
+.page__btn.active {
+  color: var(--greyDark);
+  pointer-events: initial;
+}
+
+.page__btn.active:hover {
+  color: var(--primary);
+}
+
 
 /* Pagination */
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .DashData{
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 15px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 94%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 94%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .profile{
+    width: 15%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1024px) {
+  .DashData{
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 15px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 94%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 94%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+  .profile{
+    width: 15%;
+    height: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px) {
+  .DashData{
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 15px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 94%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 94%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .profile{
+    width: 17%;
+    height: 80%;
+  }
+  .username span{
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px) {
+  .DashData{
+    width: 90%;
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 15px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 94%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 94%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .profile{
+    width: 17%;
+    height: 80%;
+  }
+  .username span{
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .DashData{
+    width: 90%;
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 10px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 97%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 97%;
+    height: 40%;
+    /* background-color: yellow;   */
+
+  }
+  .profile{
+    width: 19%;
+    height: 80%;
+  }
+  .username span{
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .DashData{
+    width: 90%;
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 10px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 97%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 97%;
+    height: 40%;
+    /* background-color: yellow;   */
+
+  }
+  .profile{
+    width: 19%;
+    height: 80%;
+  }
+  .username span{
+    font-size: 11px;
+    font-weight: 600;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+  .DashData{
+    width: 90%;
+    padding-left: 0px;
+  }
+  .dashdata{
+    width: 100%;
+    /* background-color: rgb(66, 131, 215); */
+    padding-left: 10px;
+    gap: 10px;
+  }
+  .topside{
+    width: 97%;
+   
+  }
+  .middleside{
+    width: 97%;
+    height: 45%;
+    /* background-color: yellowgreen; */
+    display: flex;
+  }
+  .lastside{
+    width: 97%;
+    height: 40%;
+    /* background-color: yellow;   */
+
+  }
+  .profile{
+    width: 19%;
+    height: 80%;
+  }
+  .username span{
+    font-size: 11px;
+    font-weight: 600;
+  }
+}

@@ -43,20 +43,11 @@ const CountGraph = () => {
 
   return (
     <div className='Countgraph'>
-
-          <Pie
+          <div className='Pie'>
+          <Pie 
             data={pieChartData}
-            options={{
-              // plugins: {
-              //   legend: {
-              //     display: true,
-              //     position: 'bottom',
-              //   },
-              // },
-              // maintainAspectRatio: false,
-              // responsive: true,
-            }}
           />
+          </div>
     
         
 

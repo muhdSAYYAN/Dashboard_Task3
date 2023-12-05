@@ -57,8 +57,8 @@ const Dashdatas = () => {
         <div className='pagination-controls'>
               <ul class="page">
                   <li class="page__btn"><img src={left} alt="" srcset="" /> </li>
-                  <li class="page__numbers"> 1</li>
-                  <li class="page__numbers active">2</li>
+                  <li class="page__numbers active"> 1</li>
+                  <li class="page__numbers ">2</li>
                   <li class="page__numbers">3</li>
                   <li class="page__numbers">4</li>
                   <li class="page__numbers">5</li>
